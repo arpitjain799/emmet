@@ -8,18 +8,18 @@ aioitertools==0.11.0
     # via maggma
 anyio==3.6.2
     # via starlette
-attrs==22.2.0
+attrs==23.1.0
     # via
     #   cattrs
     #   ddtrace
     #   jsonschema
 bcrypt==4.0.1
     # via paramiko
-boto3==1.26.114
+boto3==1.26.118
     # via
     #   emmet-api (setup.py)
     #   maggma
-botocore==1.29.114
+botocore==1.29.118
     # via
     #   boto3
     #   s3transfer
@@ -48,7 +48,7 @@ cycler==0.11.0
     # via matplotlib
 ddsketch==2.0.4
     # via ddtrace
-ddtrace==1.11.2
+ddtrace==1.12.0
     # via emmet-api (setup.py)
 deprecated==1.2.13
     # via opentelemetry-api
@@ -56,7 +56,7 @@ dnspython==2.3.0
     # via
     #   maggma
     #   pymongo
-emmet-core[all]==0.51.13
+emmet-core[all]==0.52.0
     # via
     #   emmet-api (setup.py)
     #   mp-api
@@ -148,7 +148,7 @@ networkx==3.1
     # via
     #   pymatgen
     #   robocrys
-numpy==1.24.2
+numpy==1.24.3
     # via
     #   contourpy
     #   maggma
@@ -172,7 +172,7 @@ packaging==23.1
     #   matplotlib
     #   mongomock
     #   plotly
-palettable==3.3.1
+palettable==3.3.3
     # via pymatgen
 pandas==2.0.0
     # via
