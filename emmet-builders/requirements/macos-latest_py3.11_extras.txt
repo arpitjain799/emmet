@@ -8,13 +8,13 @@ aioitertools==0.11.0
     # via maggma
 anyio==3.6.2
     # via starlette
-attrs==22.2.0
+attrs==23.1.0
     # via jsonschema
 bcrypt==4.0.1
     # via paramiko
-boto3==1.26.114
+boto3==1.26.118
     # via maggma
-botocore==1.29.114
+botocore==1.29.118
     # via
     #   boto3
     #   s3transfer
@@ -53,13 +53,13 @@ dnspython==2.3.0
     # via
     #   maggma
     #   pymongo
-emmet-core[all]==0.51.13
+emmet-core[all]==0.52.0
     # via
     #   emmet-builders (setup.py)
     #   mp-api
 fastapi==0.95.1
     # via maggma
-filelock==3.11.0
+filelock==3.12.0
     # via virtualenv
 flake8==6.0.0
     # via emmet-builders (setup.py)
@@ -73,7 +73,7 @@ future==0.18.3
     #   uncertainties
 ghp-import==2.1.0
     # via mkdocs
-griffe==0.27.0
+griffe==0.27.1
     # via mkdocstrings-python
 htmlmin2==0.1.13
     # via mkdocs-minify-plugin
@@ -201,7 +201,7 @@ networkx==3.1
     #   robocrys
 nodeenv==1.7.0
     # via pre-commit
-numpy==1.24.2
+numpy==1.24.3
     # via
     #   contourpy
     #   maggma
@@ -224,7 +224,7 @@ packaging==23.1
     #   mongomock
     #   plotly
     #   pytest
-palettable==3.3.1
+palettable==3.3.3
     # via pymatgen
 pandas==2.0.0
     # via
@@ -267,7 +267,7 @@ pydocstyle==6.3.0
     # via emmet-builders (setup.py)
 pyflakes==3.0.1
     # via flake8
-pygments==2.15.0
+pygments==2.15.1
     # via mkdocs-material
 pymatgen==2023.3.23
     # via
@@ -380,7 +380,7 @@ tenacity==8.2.2
     # via plotly
 threadpoolctl==3.1.0
     # via scikit-learn
-tornado==6.2
+tornado==6.3.1
     # via livereload
 tqdm==4.65.0
     # via
@@ -389,7 +389,7 @@ tqdm==4.65.0
     #   pymatgen
 types-requests==2.28.11.17
     # via emmet-builders (setup.py)
-types-setuptools==67.6.0.7
+types-setuptools==67.7.0.0
     # via emmet-builders (setup.py)
 types-urllib3==1.26.25.10
     # via types-requests
@@ -408,7 +408,7 @@ urllib3==1.26.15
     # via
     #   botocore
     #   requests
-virtualenv==20.21.0
+virtualenv==20.22.0
     # via pre-commit
 watchdog==3.0.0
     # via mkdocs
